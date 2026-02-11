@@ -1,14 +1,17 @@
-import NavBar from "./components/NavBar/NavBar"
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
+
 import "./global.scss"
+
 
 function App() {
   return (
     <>
-    
-    <h2> Olá, boa noite! </h2>
+      
+      <NavBar />
+      <Footer />
     </>
-  )
+  );
 }
-export default App
 
-
+export default App;

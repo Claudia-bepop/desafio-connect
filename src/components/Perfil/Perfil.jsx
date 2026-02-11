@@ -1,4 +1,4 @@
-Import Styles from "./Perfil.module.scss";
+import styles from "./Perfil.module.scss";
 import ImgPerfil from "../../assets/perfil.jpeg"
 
 function Perfil() {

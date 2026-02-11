@@ -1,20 +1,26 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import styles from "./NavBar.module.scss"
 
 //importando todos os componentes para serem usados nas rotas
+
 import Inicio from "../Inicio/Inicio";
 import Acoes from "../AcoesDaConnect/AcoesDaConnect";
 import QuemSomos from "../QuemSomos/QuemSomos";
 import Perfil from "../Perfil/Perfil";
 
-import Logo from "../../assets/Logo.png";
-import FotoDoPerfil from "../../assets/Perfil.jpeg";
+
+import Logo from "../../assets/logo.png";
+import FotoDoPerfil from "../../assets/imgdoperfil.jpg";
+
+import styles from "./NavBar.module.scss"
+
 
 function NavBar() {
   return (
     <BrowserRouter>
-      <nav className={StyleSheet.navBar}>
+      <nav className={styles.navBar}>
         <Link to="/">
-          <img src={Logo} alt="Logo" />
+          <img className={styles.logo} src={Logo} alt="Logo" />
         </Link>
 
         <ul>
@@ -30,7 +36,7 @@ function NavBar() {
         </ul>
 
         <Link to="/perfil">
-          <img src={FotoDoPerfil} alt="Foto do perfil" />
+          <img className={styles.imgPerfil} src={FotoDoPerfil} alt="Foto do perfil" />
         </Link>
       </nav>
 
