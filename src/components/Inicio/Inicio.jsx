@@ -1,5 +1,5 @@
 import styles from "./Inicio.module.scss";
-import ImgInicial from "../../assets/imagem-tela-inicial.png"
+import ImgInicial from "../../assets/perfil.jpeg"
 
 function Inicio() {
   return (

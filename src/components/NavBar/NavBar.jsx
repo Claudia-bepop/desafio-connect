@@ -10,9 +10,9 @@ import Perfil from "../Perfil/Perfil";
 
 
 import Logo from "../../assets/logo.png";
-import FotoDoPerfil from "../../assets/imgdoperfil.jpg";
+import FotoDoPerfil from "../../assets/perfil.jpeg"
 
-import styles from "./NavBar.module.scss"
+
 
 
 function NavBar() {

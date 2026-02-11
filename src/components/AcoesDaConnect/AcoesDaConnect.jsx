@@ -11,7 +11,7 @@ function AcoesDaConnect() {
   // [] array / lista
   // {} objetos
   // [ {}, {}, {}, {}, {}, {} ] array de objetos
-  const [cards, setCards] = useState([
+  const [cards] = useState([
     {
       id: 1,
       imagem: Mutirao,
@@ -74,10 +74,12 @@ function AcoesDaConnect() {
       <section className={styles.containerCardsDeAcoes}>
         {cards.map((item) => (
           <article key={item.id} className={styles.cardsDeAcoes}>
-            <img src="" alt="" />
-            <h2> </h2>
-            <p> </p>
-            <button> </button>
+      <img src={item.imagem} alt={item.titulo} />
+            <h2> {item.titulo} </h2>
+            <p> {item.informacao} </p>
+            <button> {item.botao} </button>
+            
+            
           </article>
         ))}
       </section>
