@@ -4,6 +4,7 @@ import Instagram from "../../assets/instagram.png"
 import Linkedin from "../../assets/linkedin.png"
 
 import styles from "./Footer.module.scss";
+
 function Footer() {
   return (
     <footer>
@@ -14,8 +15,9 @@ function Footer() {
 
       <p>© 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto destinado exclusivamente a fins educativos.</p>
      
-      <nav>
-        <img src={Whatsapp} alt="Logo do whatsapp" />
+      
+        <nav className={styles.navFooter}>
+   <img src={Whatsapp} alt="Logo do whatsapp" />
         <img src={Instagram} alt="Logo do instagram" />
         <img src={Linkedin} alt="Logo do linkedin" />
       </nav>

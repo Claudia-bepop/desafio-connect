@@ -12,16 +12,13 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 15%;
-  }
-
 
     h2 {
       font-size: 2rem;
       font-weight: 400;
     }
-
   }
-  
+
   p {
     //  border: solid white;
     width: 25%;
@@ -29,7 +26,7 @@ footer {
     text-align: center;
   }
 
-  nav {
+  .navFooter {
     //border: solid red;
     width: 15%;
     display: flex;
@@ -37,29 +34,27 @@ footer {
   }
 }
 
-
-
-
-
-
-
-
 //Responsivo do footer
+
 @media (min-width: 201px) and (max-width: 500px) {
   footer {
     flex-direction: column-reverse;
     height: 35vh;
+
     div {
       width: 60%;
+
       h2 {
         font-size: 2rem;
         font-weight: 400;
       }
     }
+
     p {
       width: 90%;
     }
-    nav {
+
+  .navFooter {
       width: 80%;
     }
   }
