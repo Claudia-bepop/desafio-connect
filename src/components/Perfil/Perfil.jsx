@@ -17,7 +17,7 @@ function Perfil() {
 
           <address>
             <p>São Paulo, SP</p>
-            <p>ClaudiaSilva@email.com</p>
+            <p>claudiaSilva@email.com</p>
             <p> Membro desde Janeiro de 2022</p>
           </address>
 
