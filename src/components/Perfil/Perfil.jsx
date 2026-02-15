@@ -7,7 +7,7 @@ function Perfil() {
       <article>
         <img src={ImgPerfil} alt="Foto de perfil" />
         <div className={styles.cardInfo}>
-          <h2> Karynne Moreira </h2>
+          <h2> Maria Claudia Da Silva </h2>
           <h3> Voluntária Ativa</h3>
           <p className={styles.paragrafoSobreMim}>
             Apaixonada por fazer a diferença na comunidade. Acredito que
@@ -16,8 +16,8 @@ function Perfil() {
           </p>
 
           <address>
-            <p> Rio de Janeiro, RJ</p>
-            <p>karynnemoreira@email.com</p>
+            <p>São Paulo, SP</p>
+            <p>ClaudiaSilva@email.com</p>
             <p> Membro desde Janeiro de 2022</p>
           </address>
 
